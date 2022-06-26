@@ -1,0 +1,101 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: none;
+  padding: none;
+}
+
+.big-text {
+  font-size: 3.5rem;
+}
+
+.headSection {
+  min-height: 55vh;
+}
+
+.navbar {
+  width: 86%;
+  margin: auto;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.left h1 {
+  font-size: 4rem;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right img {
+  height: auto;
+  width: 100%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.projects {
+  background: rgba(201, 223, 231, 0.853);
+  min-height: 40vh;
+}
+
+.mycard-1 {
+  border-top: 5px solid #b9bff9;
+}
+
+.mycard-2 {
+  border-top: 5px lightcoral solid;
+}
+
+.mycard-3 {
+  border-top: 5px solid #9df8ce;
+}
+
+.mycard-4 {
+  border-top: 5px solid #9df8ce;
+}
+
+.mycard-5 {
+  border-top: 5px solid #daf89d;
+}
+
+.mycard-6 {
+  border-top: 5px solid #da9df8;
+}
+
+.mycard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-height: 53vh;
+  width: 22.75rem;
+  background-color: white;
+}
+/*# sourceMappingURL=sass.css.map */
