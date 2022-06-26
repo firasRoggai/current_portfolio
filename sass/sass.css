@@ -5,6 +5,11 @@
   padding: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .big-text {
   font-size: 3.5rem;
 }
@@ -33,6 +38,12 @@
 
 .left h1 {
   font-size: 4rem;
+}
+
+.left span {
+  color: #9317d1;
+  font-weight: 500;
+  border-bottom: dotted 1px black;
 }
 
 .right {
@@ -76,7 +87,7 @@
 }
 
 .mycard-5 {
-  border-top: 5px solid #daf89d;
+  border-top: 5px solid #baff30;
 }
 
 .mycard-6 {
@@ -97,5 +108,107 @@
   min-height: 53vh;
   width: 22.75rem;
   background-color: white;
+}
+
+.contact {
+  min-height: 70vh;
+}
+
+.contact h4 {
+  margin: 2rem 0rem;
+  font-weight: 600;
+}
+
+.contact .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .img img {
+  width: 100%;
+  height: auto;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+}
+
+footer {
+  background: rgba(201, 223, 231, 0.853);
+}
+
+footer h5 {
+  font-weight: 600;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 321px) {
+  /* Styles */
+  .navbar {
+    width: 95%;
+  }
+  .headSection h1 {
+    font-size: 2.5rem;
+  }
+  .headSection p {
+    font-size: 1.2rem;
+  }
+  .contact-link {
+    font-size: 1.3rem;
+  }
+  footer h5 {
+    font-size: 0.8rem;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (max-device-width: 768px) {
+  .headSection h1 {
+    font-size: 2.5rem;
+  }
+  .headSection p {
+    font-size: 1.2rem;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer h5 {
+    font-size: 0.8rem;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
 }
 /*# sourceMappingURL=sass.css.map */
