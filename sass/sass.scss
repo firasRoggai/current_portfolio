@@ -84,7 +84,7 @@ a {
     // background: rgba(201, 223, 231, 0.853);
     h4 {
         margin: 2rem 0rem;
-        font-weight: 100;
+        // font-weight: 100;
     }
     .img {
         @include flex-center();
@@ -127,6 +127,7 @@ and (max-width : 321px) {
 .contact-link{
         font-size: 1.3rem;
 }
+
 footer {
     h5{
     font-size: 0.8rem;
@@ -144,6 +145,16 @@ and (max-device-width : 768px) {
         }
         p {
             font-size: 1.2rem;
+        }
+    }
+    .contact {
+        min-height: auto;
+        h4 {
+            margin: 2rem 0rem;
+            font-size: 1.1rem;
+        }
+        h1{
+            font-size: 2.3rem;
         }
     }
     footer {

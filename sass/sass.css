@@ -114,7 +114,6 @@ a {
 
 .contact h4 {
   margin: 2rem 0rem;
-  font-weight: 100;
 }
 
 .contact .img {
@@ -176,6 +175,16 @@ footer h5 {
   }
   .headSection p {
     font-size: 1.2rem;
+  }
+  .contact {
+    min-height: auto;
+  }
+  .contact h4 {
+    margin: 2rem 0rem;
+    font-size: 1.1rem;
+  }
+  .contact h1 {
+    font-size: 2.3rem;
   }
   footer {
     display: -webkit-box;
