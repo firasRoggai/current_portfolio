@@ -1,3 +1,5 @@
+/***** Color variables *****/
+/***** End Color variables *****/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -8,10 +10,6 @@
 a {
   text-decoration: none;
   color: black;
-}
-
-.big-text {
-  font-size: 3.5rem;
 }
 
 .headSection {
@@ -116,7 +114,7 @@ a {
 
 .contact h4 {
   margin: 2rem 0rem;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .contact .img {
@@ -137,7 +135,9 @@ a {
 }
 
 .contact h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  display: inline;
+  border-bottom: dashed #9317d1;
 }
 
 footer {
@@ -145,7 +145,8 @@ footer {
 }
 
 footer h5 {
-  font-weight: 600;
+  font-weight: 100;
+  margin-top: 10px;
 }
 
 /* Smartphones (landscape) ----------- */
